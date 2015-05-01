@@ -1,4 +1,4 @@
-package cn.hpapa.bkl.cn.hpapa.bkl.core;
+package cn.hpapa.bkl.core;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
