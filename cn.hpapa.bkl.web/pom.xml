@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>cn.hpapa.bkl</groupId>
+		<artifactId>cn.hpapa.bkl.parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../cn.hpapa.bkl.parent/pom.xml</relativePath>
+	</parent>
+	<artifactId>cn.hpapa.bkl.web</artifactId>
+	<name>cn.hpapa.bkl.web Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>cn.hpapa.bkl</groupId>
+			<artifactId>cn.hpapa.bkl.core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cn.hpapa.bkl</groupId>
+			<artifactId>cn.hpapa.bkl.db</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cn.hpapa.bkl</groupId>
+			<artifactId>cn.hpapa.bkl.intf</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cn.hpapa.bkl</groupId>
+			<artifactId>cn.hpapa.bkl.user</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>cn.hpapa.bkl.web</finalName>
+	</build>
+</project>
