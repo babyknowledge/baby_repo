@@ -1,15 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<parent>
 		<groupId>cn.hpapa.bkl</groupId>
 		<artifactId>cn.hpapa.bkl.parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>cn.hpapa.bkl.db</artifactId>
+
+	<artifactId>cn.hpapa.bkl.web</artifactId>
 	<packaging>jar</packaging>
 
-	<name>cn.hpapa.bkl.db</name>
+	<name>cn.hpapa.bkl.web</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -17,18 +19,24 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
+			<groupId>cn.hpapa.bkl</groupId>
+			<artifactId>cn.hpapa.bkl.core</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-jdbc</artifactId>
+			<groupId>cn.hpapa.bkl</groupId>
+			<artifactId>cn.hpapa.bkl.db</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>c3p0</groupId>
-			<artifactId>c3p0</artifactId>
+			<groupId>cn.hpapa.bkl</groupId>
+			<artifactId>cn.hpapa.bkl.intf</artifactId>
+			<version>${project.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>cn.hpapa.bkl</groupId>
+			<artifactId>cn.hpapa.bkl.user</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 </project>

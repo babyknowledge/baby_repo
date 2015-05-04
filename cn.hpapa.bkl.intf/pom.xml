@@ -5,6 +5,7 @@
 		<groupId>cn.hpapa.bkl</groupId>
 		<artifactId>cn.hpapa.bkl.parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<!-- <relativePath>./cn.hpapa.bkl.parent/pom.xml</relativePath> -->
 	</parent>
 	<artifactId>cn.hpapa.bkl.intf</artifactId>
 	<packaging>jar</packaging>
@@ -13,13 +14,23 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.restlet.jee</groupId>
 			<artifactId>org.restlet.ext.spring</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.restlet.jee</groupId>
+			<artifactId>org.restlet.ext.json</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>cn.hpapa.bkl</groupId>
+			<artifactId>cn.hpapa.bkl.core</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 </project>
