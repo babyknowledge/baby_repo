@@ -88,5 +88,6 @@
 		<module>../cn.hpapa.bkl.intf</module>
 		<module>../cn.hpapa.bkl.test</module>
 		<module>../cn.hpapa.bkl.user</module>
+		<module>../cn.hpapa.bkl.web</module>
 	</modules>
 </project>
