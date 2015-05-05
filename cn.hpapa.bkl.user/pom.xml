@@ -4,12 +4,12 @@
 
 	<parent>
 		<groupId>cn.hpapa.bkl</groupId>
-		<artifactId>cn.hpapa.bkl.parent</artifactId>
+		<artifactId>hpapa-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../cn.hpapa.bkl.parent/pom.xml</relativePath>
+		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<artifactId>cn.hpapa.bkl.user</artifactId>
+	<artifactId>hpapa-user</artifactId>
 	<packaging>jar</packaging>
 
 	<name>cn.hpapa.bkl.user</name>

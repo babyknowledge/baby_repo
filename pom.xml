@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>cn.hpapa.bkl</groupId>
-	<artifactId>cn.hpapa.bkl.parent</artifactId>
+	<artifactId>hpapa-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -83,10 +83,11 @@
 	</dependencyManagement>
 
 	<modules>
-		<module>../cn.hpapa.bkl.core</module>
-		<module>../cn.hpapa.bkl.db</module>
-		<module>../cn.hpapa.bkl.intf</module>
-		<module>../cn.hpapa.bkl.test</module>
-		<module>../cn.hpapa.bkl.user</module>
+		<module>cn.hpapa.bkl.web</module>
+		<module>cn.hpapa.bkl.core</module>
+		<module>cn.hpapa.bkl.db</module>
+		<module>cn.hpapa.bkl.intf</module>
+		<module>cn.hpapa.bkl.test</module>
+		<module>cn.hpapa.bkl.user</module>
 	</modules>
 </project>
