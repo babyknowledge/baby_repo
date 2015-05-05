@@ -10,6 +10,7 @@
 	<artifactId>hpapa-web</artifactId>
 	<name>cn.hpapa.bkl.web Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+	<packaging>war</packaging>
 	<dependencies>
 		<dependency>
 			<groupId>cn.hpapa.bkl</groupId>
