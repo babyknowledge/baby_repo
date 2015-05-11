@@ -7,11 +7,12 @@ import java.io.InputStreamReader;
  * Hello world!
  * 控制台输入
  */
-public class ConsoleIn 
+public class SystemIn 
 {
     public static void main( String[] args )
  {
 		try {
+			// System.in标准输入
 			InputStreamReader isr = new InputStreamReader(System.in);
 			BufferedReader br = new BufferedReader(isr);
 			// 请输入第一个数
