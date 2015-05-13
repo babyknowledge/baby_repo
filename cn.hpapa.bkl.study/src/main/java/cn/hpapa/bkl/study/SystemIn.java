@@ -8,8 +8,8 @@ import java.io.InputStreamReader;
  */
 public class SystemIn {
 	public static void main(String[] args) {
-		Cat c = new Cat();
-		System.out.println(c.getAge());
+//		Cat c = new Cat();
+//		System.out.println(c.getAge());
 		try {
 			// System.in标准输入
 			InputStreamReader isr = new InputStreamReader(System.in);

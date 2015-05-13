@@ -1,5 +1,6 @@
 package cn.hpapa.bkl.study;
 
+
 public class ClassTest {
 
 	public static void main(String[] args) {
