@@ -78,7 +78,8 @@ public class LoginClass extends JFrame {
 		
 		jp2.add(password, BorderLayout.CENTER);
 		jp2.add(jpwf, BorderLayout.CENTER);
-		jp2.add(jbg, BorderLayout.CENTER);
+		jp2.add(jrb1, BorderLayout.CENTER);
+		jp2.add(jrb2, BorderLayout.CENTER);
 		
 		jp3.add(login, BorderLayout.CENTER);
 		jp3.add(cancel, BorderLayout.CENTER);

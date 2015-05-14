@@ -34,6 +34,9 @@ import javax.swing.JFrame;
  * 卡片布局管理器 GridLayout
  * 网格包布局管理器 GridBagLayout
  * 其中前三种是最常见的。
+ * 
+ * 常用组件：JFrame, JButton, JPanel, JLabel, JTextField,
+ * JPasswordField, JCheckBox, JRadioButton, JComboBox, JScrollPane, JList
  */
 public class Introduce extends JFrame {
 	
