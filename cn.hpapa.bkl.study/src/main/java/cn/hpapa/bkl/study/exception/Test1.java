@@ -21,7 +21,7 @@ class Father {
 		son = new Son();
 	}
 	public void test1() {
-		
+		int $d = 0;
 		// FIXME 调用者处理异常时如何关闭文件。
 		System.out.println("1");
 		try{
