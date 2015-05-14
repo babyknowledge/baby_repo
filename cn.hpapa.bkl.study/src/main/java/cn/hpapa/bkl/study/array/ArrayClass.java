@@ -14,6 +14,7 @@ import java.io.InputStreamReader;
  * 定义：
  * 数据类型 类型 数组名[] = new 类型[大小];
  * 初始化数组：数据类型 数组名[] = {元素值,元素值,...};
+ * 初始化数组：数据类型 数组名[] = new 类型[]{元素值,元素值,...}；
  */
 public class ArrayClass {
 	

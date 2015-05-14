@@ -28,7 +28,8 @@ public class StaticTest {
 }
 
 class Person{
-	int age;
+	// 可以不赋初始值
+	static int age;
 	
 	String name;
 	
