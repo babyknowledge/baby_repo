@@ -1,8 +1,9 @@
+package cn.hpapa.bkl.study.tank.v1;
 /**
  * 坦克游戏1.0版本
  * 1、画出坦克。
  * 
- */
+ *//*
 package cn.hpapa.bkl.study.tank;
 
 import java.awt.Color;
@@ -122,4 +123,4 @@ class MyPanel extends JPanel {
 		this.drawTank(hero.getX(), hero.getY(), g, 0, 0);
 		
 	}
-}
+}*/
