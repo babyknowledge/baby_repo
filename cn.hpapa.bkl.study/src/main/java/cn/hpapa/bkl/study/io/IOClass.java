@@ -28,9 +28,7 @@ import java.io.IOException;
  * 输入      InputStream    Reader
  * 输出      OutputStream   Writer
  * 
- * File类基本操作
- * 
- * 操作系统
+ * 字节流的缓冲区操作的是byte[], 字节流的缓冲区操作的是char[]，缓冲字符流操作的是String
  */
 public class IOClass {
 
