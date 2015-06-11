@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: libs.commons
-Bundle-SymbolicName: np.cmpnt.libs.commons
-Bundle-Version: 1.0.0
-Bundle-Vendor: NEUSOFT
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
