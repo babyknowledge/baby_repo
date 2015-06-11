@@ -1,0 +1,7 @@
+*.iml
+*.class
+/bin
+/target
+/bin-debug
+*.classpath
+*.project
